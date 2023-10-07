@@ -1,0 +1,134 @@
+/*===========Подключение шрифтов======*/
+@import url("fonts.css");
+
+/*===========Сброс стилей=======*/
+@import url("reset.css");
+
+/*========Основные стили==========*/
+
+body {
+width: 1218px;
+height: 1046px;
+margin: 150.5px 352px 150.5px 350px;
+color: #7D7D7D;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.46;
+}
+.wrapper { 
+text-align: center; 
+margin: 0 0 16px 0;
+} 
+.rectangle { 
+display: inline-block; 
+background: #40DDB6; 
+width: 12px; 
+height: 12px; 
+flex-shrink: 0; 
+} 
+
+.text { 
+display: inline-block; 
+color: #37393F;   
+font-weight: 500; 
+line-height: normal; 
+}
+.title {
+color: #37393F;
+text-align: center;
+font-family: Poppins;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.21;
+margin: 0 0 70px 0;
+}
+.content {
+margin: 0 0 100px 0;
+}
+.content h2 {
+color: #37393F;
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.21;
+padding: 0 0 11px 0;
+}
+.content p {
+width: 1218px;
+padding: 0 0 32px 0;
+}
+.content h3 {
+color: #37393F;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.content span {
+color: #40DDB6;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.sub-content {
+margin: 0 0 100px 0;
+}
+.sub-content h2 {
+color: #37393F;
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.21;
+padding: 0 0 11px 0;
+}
+#text {
+color: #7D7D7D;
+width: 1218px;
+padding: 0 0 24px 0;
+}
+.sub-content h3 {
+color: #37393F;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 0 0 8px 0;
+}
+.sub-content span {
+color: #40DDB6;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.sub-content p {
+width: 1218px;
+height: 63px;
+color: #40DDB6;
+}
+.footer-content h2 {
+color: #37393F;
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.21;
+padding: 0 0 11px 0;
+}
+.footer-content p {
+width: 739px;
+}
+.footer-content span {
+color: #40DDB6;
+font-weight: 500;
+}

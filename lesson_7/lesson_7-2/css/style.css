@@ -1,0 +1,67 @@
+/*=========Подключение Шрифтов==========*/
+@import url("fonts.css");
+
+/*===========Обнуление Стилей========*/
+@import url("reset.css");
+
+/*============Основные Стили============*/
+
+body {
+   width: 831px;
+   height: 950px;
+   margin: 50px 350px 50px 30px;
+   color: #7D7D7D;
+   font-family: Inter;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.46;
+}
+.block-title {
+   margin: 0 0 35px 0;
+}
+.title {
+   color: #37393F;
+   font-family: Poppins;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 1.27;
+   padding: 0 0 13px 0;
+}
+.block-title p {
+   width: 830px;
+}
+.title-text {
+   margin: 0 0 45px 0;
+}
+.list {
+   margin: 0 0 35px 43px;
+   font-weight: 500;
+}
+.line {
+   margin: 0 0 38px 0;
+}
+.line-2 {
+   margin: 0 0 38px 0;
+}
+.block-content {
+   width: 830px;
+   height: 106px;
+   margin: 0 0 35px 0;
+}
+.list-number {
+   list-style: none;
+   font-weight: 500;
+   margin: 0 0 35px 13px;
+}
+.line-number1 {
+   margin: 0 0 38px 0;
+}
+.line-number2 {
+   margin: 0 0 38px 0;
+}
+.block-text {
+   width: 830px;
+   height: 106px;
+}

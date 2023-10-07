@@ -1,0 +1,108 @@
+/*=============Подключение Стилей===========*/
+@import url("fonts.css");
+
+/*============Сброс Стилей===========*/
+@import url("reset.css");
+
+/*===========Основные Стили========*/
+
+body {
+   width: 1240px;
+   height: 636px;
+   margin: 103px 100px 103px 102px;
+   color: #807D7E;
+   font-family: "Causten";
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.67;
+   letter-spacing: 0.4px;
+}
+.wrapper {
+   margin: 0 0 30px 0;
+}
+.wrapper .rectangle {
+   vertical-align: sub;
+   
+}
+.rectangle {
+   display: inline-block; 
+   background: #8A33FD;
+   border-radius: 10px; 
+   width: 6px;
+   height: 28px;
+   flex-shrink: 0;
+   
+}
+.text {
+   display: inline-block;
+   width: 552px;
+   height: 31px;
+   color: #3C4242;
+   font-family: "Core Sans C";
+   font-size: 28px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 1.20;
+   letter-spacing: 0.6px;
+   margin: 0 0 0 15px;
+}
+.title {
+   width: 1043px;
+   color: #807D7E;
+   font-family: "Core Sans C";
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 1.68;
+   letter-spacing: 0.4px;
+   margin: 0 0 25px 21px;
+}
+.content {
+   width: 1219px;
+   height: 104px;
+   margin: 0 0 20px 21px;
+}
+.content span {
+   font-weight: 700;
+}
+.content-text {
+   width: 1217px;
+   height: 33px;
+   margin: 0 0 25px 21px;
+}
+.sub-title {
+   width: 1153px;
+   color: #807D7E;
+   font-family: Core Sans C;
+   -size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 1.67;
+   letter-spacing: 0.4px;
+   margin: 0 0 25px 21px;
+}
+.sub-content {
+   width: 1219px;
+   height: 98px;
+   margin: 0 0 20px 21px;
+}
+.sub-content span {
+   font-weight: 700;
+}
+.sub-content-text {
+   width: 1219px;
+   height: 103px;
+   margin: 0 0 20px 21px;
+}
+.footer-title {
+   width: 168px;
+   color: #807D7E;
+   font-family: "Core Sans C";
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 1.67;
+   letter-spacing: 0.4px;
+   margin: 0 0 0 21px;
+}

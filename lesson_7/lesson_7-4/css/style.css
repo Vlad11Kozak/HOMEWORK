@@ -1,0 +1,59 @@
+@import url("fonts.css");
+
+@import url("reset.css");
+
+body {
+   width: 1600px;
+   height: 5187px;
+   font-family: "Cormorant Infant";
+   font-style: normal;
+   font-weight: 700;
+   margin: 161px 240px 284px 246px;
+}
+
+.block-title {
+   color: #D58417;
+   font-size: 20px;
+   line-height: 1;
+   margin: 67px 0 27px 0;
+}
+.block-sub-title {
+   width: 503px;
+   color: #000;
+   font-size: 64px;
+   line-height: 1;
+   margin: 0 0 31px 0;
+}
+.block-text {
+   width: 489px;
+   height: 174px;
+   color: #606060;
+   font-size: 30px;
+   line-height: 1.4;
+}
+.block {
+   display: inline-block;
+}
+.image-1 {
+   width: 177px;
+   height: 336px;
+   margin: 83px 0 0 99px;
+
+}
+.image-2 {
+   width: 177px;
+   height: 336px;
+   border-radius: 235px;
+   margin: 97px 40px 0 -190px;
+}
+.image-3 {
+   width: 308px;
+   height: 506px;
+   border-radius: 235px;
+}
+.image-4 {
+   width: 307px;
+   height: 500px;
+   border-radius: 235px;
+   margin: 19px 0 0 -323px;
+}
