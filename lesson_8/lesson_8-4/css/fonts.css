@@ -1,0 +1,24 @@
+@font-face {
+   font-family: "Core Sans C";
+   src: url("../fonts/coresansc/CoreSansC-65Bold.woff2") format("woff2"),
+        url("../fonts/coresansc/CoreSansC-65Bold.woff") format("woff");
+        font-display: swap;
+        font-weight: 600px;
+        font-style: normal;
+}
+@font-face {
+   font-family: "Causten";
+   src: url("../fonts/causten/Causten-Regular.woff2") format("woff2"),
+         url("../fonts/causten/Causten-Regular.woff") format("woff");
+      font-display: swap;
+      font-weight: 400;
+      font-style: normal;
+}
+@font-face {
+   font-family: "Causten";
+   src: url("../fonts/causten/Causten-Bold.woff2") format("woff2"),
+         url("../fonts/causten/Causten-Bold.woff") format("woff");
+      font-display: swap;
+      font-weight: 700;
+      font-style: normal;
+}

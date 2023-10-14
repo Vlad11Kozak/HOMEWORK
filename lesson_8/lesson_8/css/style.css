@@ -1,0 +1,93 @@
+/*=============Подключение шртфтов==========*/
+@import url("fonts.css");
+
+/*==============Обнуление стилей============*/
+@import url("reset.css");
+
+/*==============Основные стили============*/
+body {
+   width: 1095px;
+   color: #7D7D7D;
+   font-family: "Inter", sans-serif;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.46;
+}
+.block-content {
+   padding: 151px 350px 40px 69px;
+}
+.wrapper {
+   margin: 0 0 16px 0;
+}
+.rectangle {
+   width: 12px;
+   height: 12px;
+   background: #40DDB6;
+   display: inline-block;
+   margin: 0 6px 0 0;
+}
+.text {
+   color: #37393F;
+   font-weight: 500;
+   line-height: normal;
+   display: inline-block;
+}
+.content {
+   margin: 0 0 48px 0;
+}
+.title {
+   color: #37393F;
+   font-family: "Poppins", sans-serif;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 1.21;
+   padding: 0 260px 10px 0;
+}
+#text {
+   height: 88px;
+   margin: 0 0 16px 0;
+}
+.content p {
+   width: 673px;
+}
+.sub-content {
+   padding: 28px 41px 28px 38px;
+   border: 1px solid #E3E3E3;
+   margin: 0 0 31px 0;
+}
+.sub-title {
+   color: #37393F;
+   font-family: Poppins;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   background: url("../img/Vector.png") 0 0 no-repeat;
+   padding: 0 0 12px 46px;
+}
+.sub-content p {
+   padding: 0 0 0 46px;
+}
+.block-sub-content {
+   padding: 28px 41px 28px 38px;
+   border: 1px solid #E3E3E3;
+   margin: 0 0 48px 0;
+}
+.block-sub-content p {
+   padding: 0 0 0 46px;
+   width: 620px;
+}
+.button {
+   width: 200px;
+   height: 65px;
+   padding: 21px 35px 22px 35px;
+   background: #6B77E5;
+}
+.button p {
+   color: #FFF;
+   font-weight: 600;
+   line-height: normal;
+   text-transform: capitalize;
+}

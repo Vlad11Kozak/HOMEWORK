@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Causten';
+    src: url('Causten-Bold.woff2') format('woff2'),
+        url('Causten-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Causten';
+    src: url('Causten-Regular.woff2') format('woff2'),
+        url('Causten-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

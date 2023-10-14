@@ -1,0 +1,114 @@
+/*=============Подключение Шрифтов===========*/
+@import url("fonts.css");
+
+/*=============Обнуление Стилей==============*/
+@import url("reset.css");
+
+/*=============Основные Стили================*/
+
+body {
+   width: 1940px;
+   height: auto;
+   color: #7D7D7D;
+   font-family: "Inter", sans-serif;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.46;
+}
+.block {
+   padding: 150px 350px 150px 350px;
+}
+.block-title {
+   width: 852px;
+   margin: 0 185px 47px 183px;
+}
+.wrapper {
+   margin: 0 0 14px 0;
+   
+}
+.rectangle {
+   width: 12px;
+   height: 12px;
+   background: #40DDB6;
+   margin: 0 0 0 352px;
+   display: inline-block;
+}
+.text {
+   color: #37393F;
+   font-weight: 500;
+   line-height: normal;
+   display: inline-block;
+}
+.title {
+   color: #37393F;
+   font-family: "Poppins", sans-serif;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 1.21;
+   padding: 0 0 14px 0;
+   text-align: center;
+}
+#text {
+   width: 852px;
+   text-align: center;
+}
+.block-content {
+   margin: 0 0 58px 0;
+}
+.content {
+   display: inline-block;
+}
+.image {
+   margin: 0 34px 24px 0;
+}
+.sub-title {
+   color: #37393F;
+   font-family: "Poppins", sans-serif;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 1.27;
+   padding: 0 0 10px 0;
+}
+.block-content p {
+   font-size: 14px;
+   background: url("../img/Group\ 22.svg") 0 0 no-repeat;
+   padding: 0 0 0 25px;
+}
+.image2 {
+   margin: 0 34px 24px 0;
+}
+.image3 {
+   margin: 0 0 24px 0;
+}
+.image4 {
+   margin: 0 34px 24px 0;
+
+}
+.sub-content {
+   display: inline-block;
+}
+.block-sub-content p {
+   font-size: 14px;
+   background: url("../img/Group\ 22.svg") 0 0 no-repeat;
+   padding: 0 0 0 25px;
+}
+.image5 {
+   margin: 0 34px 24px 0;
+
+}
+.image6 {
+   margin: 0 0 24px 0;
+
+}
+.content-title {
+   color: #37393F;
+   font-family: "Poppins", sans-serif;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 1.27;
+   padding: 0 0 10px 0;
+}
