@@ -1,0 +1,106 @@
+/*=====================Подключение шрифтов===========*/
+@import url("fonts.css");
+
+/*=====================Обнуление стилей==============*/
+@import url("reset.css");
+
+/*=============Основные стили============*/
+
+body {
+   color: #7D7D7D;
+   font-family: "Inter", sans-serif;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.46;
+}
+.block-title {
+   margin: 0 0 42px 0;
+}
+.title {
+   max-width: 692px;
+   max-height: 86px;
+   color: #37393F;
+   font-family: "Poppins", sans-serif;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 1.27;
+   padding: 0 0 3px 0;
+}
+.block-title p {
+   max-width: 692px;
+   max-height: 103px;
+}
+.block-sub-title {
+   margin: 0 0 40px 0;
+}
+.sub-title {
+   max-width: 692px;
+   max-height: 54px;
+   color: #6B77E5;
+   font-family: "Poppins", sans-serif;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 1.27;
+   padding: 0 0 12px 0;
+}
+.block-sub-title p {
+   max-width: 692px;
+}
+.block-content {
+   margin: 0 0 50px 0;
+}
+.block-content img {
+   padding: 0 29px 0 0;
+}
+.content {
+   max-width: 332px;
+   display: inline-block;
+}
+.content-title {
+   color: #37393F;
+   font-family: "Poppins", sans-serif;
+   font-size: 25px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 1.27;
+   padding: 0 0 15px 0;
+}
+.content-sub-title {
+   
+   color: #40DDB6;
+   font-family: 'Poppins',sans-serif;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 1.27;
+   padding: 0 0 21px 0;
+}
+.list {
+   max-width: 313px;
+}
+.line:nth-child(1),
+.line-2:nth-child(2),
+.line-3:nth-child(3) {
+   background: url("../img/Vector.png") 0 0 no-repeat;
+   padding: 0 0 30px 35px;
+}
+.content li:last-of-type {
+   padding: 0 0 2px 35px;
+}
+.text {
+   max-width: 692px;
+   max-height: 46px;
+   color: #37393F;
+   font-family: "Poppins", sans-serif;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 1.27;
+}
+.block-text p {
+   max-width: 692px;
+   max-height: 55px;
+}

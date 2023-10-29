@@ -1,0 +1,67 @@
+/*=============Подключение шрифтов=========*/
+@import url("fonts.css");
+
+/*=============Обнуление стилей===========*/
+@import url("reset.css");
+
+/*============Основные стили=============*/
+
+.block {
+   max-width: 1250px;
+display: flex;
+}
+.block-title {
+   margin: 167px 0 0 0;
+justify-content: flex-start;
+max-width: 488px;
+}
+.title {
+   color: #000;
+   font-family: "Cormorant Infant",sans-serif;
+   font-size: 60px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 1.15;
+}
+.block-title::after {
+   content: "";
+   width: 304px;
+   height: 3px;
+   background: #78473B;
+   display: inline-block;
+}
+.content {
+   margin: 32px 7px 0 0;
+}
+.content img:last-child {
+margin: -372px 0 0 10px;
+}
+.content p {
+   color: #000;
+   font-family: "Cormorant Infant", sans-serif;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 1.40;
+}
+.sub-title {
+   max-width: 339px;
+   color: #000;
+   font-family: "Cormorant Infant", sans-serif;
+   font-size: 46px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 1.13;
+   padding: 0 0 31px 0;
+}
+.sub-content img:last-child {
+margin: -372px 0 0 10px;
+}
+.sub-content p {
+   color: #000;
+   font-family: "Cormorant Infant", sans-serif;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 1.40;
+}
