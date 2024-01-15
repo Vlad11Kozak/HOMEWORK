@@ -1,0 +1,100 @@
+/*==================Обнуление стилей=============*/
+@import url("reset.css");
+
+/*==================Подключение шрифтов===========*/
+@import url("fonts.css");
+
+/*=============Основные стили==============*/
+
+body {
+   color: #7D7D7D;
+   font-family: "Inter",sans-serif;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.35;
+}
+.wrapper {
+   padding: 50px;
+}
+.content {
+   margin: 0 0 31px 0;
+}
+.block-a {
+   background: url("../img/Photo1.jpg") 0 0 no-repeat;
+   width: 399px;
+   height: 532px;
+   display: inline-block;
+}
+.link {
+   padding: 241px 107.5px 241px 107.5px;
+}
+.link__item {
+   display: inline-block;
+   padding: 0 13px 0 0;
+   visibility: hidden;
+}
+[class*=block]:hover .link__item {
+   visibility: visible;
+}
+[class*=block]:hover {
+   box-shadow: inset 380px 0 12px 8px rgba(107, 119, 229, 0.70);
+}
+.link__item:last-child {
+   padding: 0 0 0 0;
+}
+.text {
+   width: 341px;
+   height: 114px;
+   background-color: #fff;
+   margin: -136px 0 0 22px;
+   text-align: center;
+}
+.sub-text {
+   padding: 24px 69px 24px 40px;
+   width: 400px;
+}
+.text__title {
+   color: #37393F;
+   font-family: "Poppins",sans-serif;
+   font-size: 25px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   
+}
+.block-b {
+   background: url("../img/Photo2.jpg") 0 0 no-repeat;
+   width: 399px;
+   height: 532px;
+   display: inline-block;
+   margin: 0 0 0 13px;
+}
+.block-c {
+   background: url("../img/Photo3.jpg") 0 0 no-repeat;
+   width: 399px;
+   height: 532px;
+   display: inline-block;
+   margin: 0 0 0 13px;
+   
+}
+.block-d {
+   background: url("../img/Photo4.jpg") 0 0 no-repeat;
+   width: 399px;
+   height: 532px;
+   display: inline-block;
+}
+.block-e {
+   background: url("../img/Photo5.jpg") 0 0 no-repeat;
+   width: 399px;
+   height: 532px;
+   display: inline-block;
+   margin: 0 0 0 13px;
+}
+.block-f {
+   background: url("../img/Photo6.jpg") 0 0 no-repeat;
+   width: 399px;
+   height: 532px;
+   display: inline-block;
+   margin: 0 0 0 13px;
+}
