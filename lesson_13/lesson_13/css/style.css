@@ -1,0 +1,52 @@
+/*================обнуление стилей==========*/
+@import url("reset.css");
+
+/*===============основные стили=============*/
+
+body {
+   background-image: url(../img/background.jpg);
+   background-repeat: no-repeat;
+   background-size: 1366px 620px;
+   max-width: 1920px;
+   max-height: 1080px;
+}
+.container {
+   transform: translate(100px, 190px);
+}
+.block__item--car {
+}
+.block__item-image--car {
+   width: 500px;
+}
+.block__item-image--wheel {
+   transform: translate(71px, -188px);
+   width: 100px;
+
+}
+.block__item-image--wheel-2 {
+   transform: translate(360px, -262px);
+   width: 100px;
+   
+}
+.block__item--car-shadow {
+   box-shadow: inset 0px 47px 80px rgb(255, 0, 0);
+   opacity: 0.2;
+   transform: translate(30px, -280px);
+   border-radius: 48% 52% 49% 51% / 52% 48% 52% 48% ;
+   width: 440px;
+   height: 30px;
+}
+.block__item--headlight {
+   background-color: rgb(162, 223, 218);
+   width: 32px;
+   height: 25px;
+   transform: translate(440px, -380px) skew(30deg);
+   border-radius: 36% 64% 0% 100% / 0% 85% 15% 100%   ;
+}
+.block__item--tail-light {
+   background-color: rgb(184, 5, 5);
+   border-radius: 100% 0% 100% 0% / 82% 0% 100% 18%  ;
+   width: 32px;
+   height: 25px;
+   transform: translate(30px, -415px) skew(-25deg);
+}
